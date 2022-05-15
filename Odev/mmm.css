@@ -1,0 +1,68 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    
+}
+body{
+    /* background: #efefef; */
+    background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+    height: 100vh;
+}
+ul,li{
+    margin: 0;
+    padding: 0;
+    list-style-position: inside;
+}
+.navbar{
+    border-bottom: 3px solid aquamarine
+}
+#navbarNav{
+    justify-content: center !important;
+}
+.aboutMe{
+    background: #fff;
+    padding: 32px;
+    border-radius: 8px;
+    height: 400px;
+    margin-bottom: 1rem;
+    border: 1px solid aquamarine
+}
+
+.aboutMe h5{
+    text-decoration: underline;
+}
+
+.aboutMe .img-content{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.aboutMe .img-content img{
+    height: 100%;
+    border-radius: 8px;
+}
+
+
+.carousel-item{
+    height: 325px;
+}
+.login-ortala{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media only screen and (max-width: 1024px) {
+    .container{
+        height: auto;
+    }
+    .aboutMe-long{
+        height: 475px;
+    }
+  }
